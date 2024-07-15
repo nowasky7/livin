@@ -1,0 +1,103 @@
+
+body {
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@font-face {
+  font-family: "inti";
+  src: url("Roboto-Thin.ttf");
+}
+.atas {
+  background-image: url('atas.jpg');
+  background-size: cover;
+  height: 30%;
+ 
+  top: 0;
+  bottom: 100;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+}
+.orang {
+  background-image: url('/orang.png');
+  background-size: cover;
+  width: 50%;
+  height: 110px;
+  margin-top: 170px;
+  margin-left: 23%;
+}
+.judul {
+  font-family: inti;
+}
+.ipt {
+  width: 85%;
+  height: 35px;
+  border: 1px solid #3E81F4;
+  border-radius: 5px;
+  padding-left: 20px;
+  box-shadow: 1px 1px 2px black;
+}
+.pencet {
+  width: 75%;
+  height: 35px;
+  background-color: #1E90FF;
+  
+}
+.pencet:hover {
+  background-color: goldenrod;
+  transition-duration: 0.5s;
+}
+.navbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+  background-color: #3E81F4;
+  color: white;
+  border: none;
+  padding: 10px 20%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+}
+a {
+  text-decoration: none;
+}
+.gb {
+  opacity: 0.5;
+  margin-bottom: 100px;
+}
+.image-container {
+  width: 62%; /* Adjust the size as needed */
+  height: 53px;* Adjust the size as needed */
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.image-container-two {
+  width: 60%; /* Adjust the size as needed */
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.image-container-two img {
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.5s ease-in-out;
+}
